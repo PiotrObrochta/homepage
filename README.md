@@ -1,5 +1,11 @@
 # Piotr Obrochta - my first page
-## Trial
+## Link ⬇
 https://piotrobrochta.github.io/homepage/
 ## Description
-This is my first page. I practiced styling after **classes**, **BEM** convention, **JAVA Script** 
+This is my first page. 
+
+I used technology 
+
+1. **BEM** convention 
+2. **JAVA Script**
+3. **ES6+ feature** 
