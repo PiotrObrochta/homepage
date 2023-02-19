@@ -44,10 +44,10 @@
 }
 
 .body__dark {
-    color: rgb(255 255 255);
-    background: rgb(78 0 0);
+    color: rgb(228, 228, 228);
+    background: rgb(41, 41, 41);
 }
-
+ange
 .body__ChangeBackgroundButton {
     border-style: none;
     background: #cfcfcf;
@@ -58,12 +58,3 @@
     background: rgb(196, 196, 196);
 }
 
-.body__buttonSpecial {
-    border-style: none;
-    background: #cfcfcf;
-    padding: 10px;
-}
-
-.body__buttonSpecial:hover {
-    background: rgb(196, 196, 196);
-}
