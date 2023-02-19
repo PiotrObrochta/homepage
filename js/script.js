@@ -1,20 +1,55 @@
-console.log("Siemka :)");
+{
+    const welcome = () => {
+        console.log("Witam na mojej pierwszej stronie internetowej");
+    }
 
-let body__buttonSpecial = document.querySelector(".body__buttonSpecial");
-let header = document.querySelector(".header");
-let body__button = document.querySelector(".body__button");
-let body = document.querySelector(".body");
-let themeName = document.querySelector(".themeName");
+    const onChangeBackgroundClick = () => {
+        const body = document.querySelector(".body");
+        const themeName = document.querySelector(".themeName");
 
-body__button.addEventListener("click", () => {
-    body.classList.toggle("body__dark");
-    themeName.innerText = body.classList.contains("body__dark")
-        ? "jasny"
-        : "ciemny";
-});
-body__buttonSpecial.addEventListener("click", () => {
-    header.remove();
-});
+        body.classList.toggle("body__dark");
+        themeName.innerText = body.classList.contains("body__dark") ? "jasny" : "ciemny";
+    }
+
+    const init = () => {
+        welcome();
+
+        const button = document.querySelector(".js-changeBackgroundButton");
+
+        button.addEventListener("click", onChangeBackgroundClick);
+    }
+
+    init();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
